@@ -1,0 +1,16 @@
+Pasos para subir a GitHub
+
+git init
+
+git remote add origin https://github.com/Leirday/COMP3015
+
+git remote set-url origin https://github.com/Leirday/COMP3015
+
+git push -u origin master
+
+
+
+
+
+
+
