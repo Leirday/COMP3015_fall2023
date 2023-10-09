@@ -1,0 +1,115 @@
+
+
+.parallax {
+
+  /* background-image: url(https://images.pexels.com/photos/2607544/pexels-photo-2607544.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); */
+
+  min-height: 300px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.bg-magenta-p {
+
+  background-color: #9e39eb;
+ 
+}
+
+.border-magenta-p {
+
+  border-color: #9e39eb;
+ 
+}
+
+.bg-dark-p {
+
+  background-color: #5b646c;
+
+}
+
+body {
+
+  background-image: url('../images/backgrounds/main.png');
+  background-attachment:scroll;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.dark_overlay {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.269), rgba(0, 0, 0, 0.128)), url();
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #f4f4f4;
+}
+
+header img {
+  width: 150px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #ddd;
+}
+
+#banner {
+  background-image: url("path_to_image.jpg"); /* Puedes reemplazar 'path_to_image.jpg' con la dirección de la imagen de fondo que desees */
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* color: white; */
+  flex-direction: column;
+  gap: 20px;
+  font-size: .5em;
+}
+
+#banner button {
+  padding: 3% 5%;
+  border: none;
+  border-radius: 15px;
+  color:white;
+
+  cursor: pointer;
+  transition: background-color 0.3s;
+  
+  font-size: 2.5em;
+}
+
+
+

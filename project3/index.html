@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post-A</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/litera/bootstrap.min.css" integrity="sha384-enpDwFISL6M3ZGZ50Tjo8m65q06uLVnyvkFO3rsoW0UC15ATBFz3QEhr3hmxpYsn" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body class="bg-dark " >
+    <!-- Escribir 'div.container' te pone: '<div class="container"></div>' automaticamente  -->
+    <div class="container-xl">
+
+          <nav class=" navbar navbar-expand-lg dark_overlay fs-2 fw-bold mb-4 shadow">
+            <div class="container-fluid">
+                <nav class="navbar">
+                  <div class="container">
+                    <a class="navbar-brand" href="#">
+                      <img src="./images/logos/main.png" class="" alt="..." width="225" height="225">
+                    </a>
+                  </div>
+                </nav>
+              <a class="navbar-brand shadow-lg" href="#"></a>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link border bg-success border-success text-white" href="#view">View</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link border bg-primary border-primary text-white" href="https://www.fandom.com/" target="_blank" >Wiki</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link border bg-danger border-danger  text-white" href="#download">Download</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link border bg-warning border-warning  text-white" href="#shop">Merch</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link border bg-info border-info  text-white" href="#support">Support</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          
+          <!-- <section id="banner" class="p-5 parallax" style="background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.269), rgba(0, 0, 0, 0.128)), url('./images/backgrounds/parallax_img_3.png');">
+            
+            <img class="img-fluid" src="./images/text/start_adventure.png">
+
+            <button type="button" class="fw-bold shadow-lg btn btn-transparent">
+              <img src="./images/text/download.png" alt="..." class="img-fluid">
+            </button>
+            
+          </section> -->
+
+          <section id="banner" class="m-5 p-5">
+            
+          
+            <!-- <section class="mb-5 position-absolute top-50 start-50 translate-middle">
+            </section> -->
+
+            <div id="carouselExampleAutoplaying" class="m-3 carousel slide " data-bs-ride="carousel">
+
+              <img class="img-fluid mb-3 pl-5 pr-5 pt-1 pb-1 bg-dark" src="./images/text/start_adventure.png">
+
+              <div class="carousel-inner">
+                <div class="carousel-item active parallax border border-3 border-dark">
+                  
+                  <img src="./images/carousel/img_1.png" class="d-block w-100 border border-3 border-dark" alt="...">
+                </div>
+                <div class="carousel-item parallax border border-3 border-dark">
+                  
+                  <img src="./images/carousel/img_2.png" class="d-block w-100 border border-3 border-dark" alt="...">
+                </div>
+                <div class="carousel-item parallax border border-3 border-dark">
+                  
+                  <img src="./images/carousel/img_3.png" class="d-block w-100 border border-3 border-dark" alt="...">
+                </div>
+
+              </div>
+
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+
+              <!-- DOWNLOAD BUTTON -->
+              <button type="button" id="download" class="fw-bold shadow-lg btn dark_overlay position-absolute top-50 start-50 translate-middle">
+                <img src="./images/text/download.png" alt="..." class="img-fluid">
+              </button>
+              <!--  -->
+            </div>
+          </section>
+
+
+
+          <section id="more_info" class="p-5 mt-5 bg-dark text-white text-center">
+            <!-- Puedes agregar contenido aquí -->
+            <p class="fs-4 p-4">
+              Experience the haunting beauty of post-apocalyptic landscapes 
+              like never before in our immersive 2D game. Dive into a world 
+              ravaged by catastrophe, where every pixel tells a story of 
+              survival and resilience. Uncover hidden treasures, forge 
+              alliances, and navigate the desolation in this gripping 
+              post-apocalyptic adventure, where every decision shapes 
+              your destiny.
+            </p>
+            
+          </section>
+
+
+          <!--  
+          <section id="perros" class="p-5 bg-magenta-p text-white text-center">
+            <h2 class="pb-4">Nuestros Perros para Adopción</h2>
+            <div class="container-fluid">
+              <div class="row mb-4">
+                <div class="col">
+                  <img class="rounded p-2 bg-white img-fluid border border-white shadow" src="https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Canino Cuadrúpedo">
+                </div>
+                <div class="col">
+                  <img class="rounded p-2 bg-white img-fluid border border-white shadow" src="https://images.pexels.com/photos/3687770/pexels-photo-3687770.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Canino Cuadrúpedo">
+                </div>
+                <div class="col">
+                  <img class="rounded p-2 bg-white img-fluid border border-white shadow" src="https://images.pexels.com/photos/3908762/pexels-photo-3908762.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Canino Cuadrúpedo">
+                </div>
+                <div class="col">
+                  <img class="rounded p-2 bg-white img-fluid border border-white shadow" src="https://images.pexels.com/photos/3090875/pexels-photo-3090875.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Canino Cuadrúpedo">
+                </div>
+                <div class="col">
+                  <img class="rounded p-2 bg-white img-fluid border border-white shadow" src="https://images.pexels.com/photos/4588436/pexels-photo-4588436.jpeg" alt="Canino Cuadrúpedo">
+                </div>
+
+              </div>
+            </div>
+            <div class="row">
+
+              <div class="col">
+                <img class="rounded p-2 bg-white img-fluid border border-white shadow" src="https://images.pexels.com/photos/1851164/pexels-photo-1851164.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Canino Cuadrúpedo">
+              </div>
+
+              <div class="col">
+                <img class="rounded p-2 bg-white img-fluid border border-white shadow" src="https://images.pexels.com/photos/1420405/pexels-photo-1420405.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Canino Cuadrúpedo">
+              </div>
+
+              <div class="col">
+                <img class="rounded p-2 bg-white img-fluid border border-white shadow" src="https://images.pexels.com/photos/5465337/pexels-photo-5465337.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="Canino Cuadrúpedo">
+              </div>
+
+              <div class="col">
+                <img class="rounded p-2 bg-white img-fluid border border-white shadow" src="https://images.pexels.com/photos/2623968/pexels-photo-2623968.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Canino Cuadrúpedo">
+              </div>
+
+              <div class="col">
+                <img class="rounded p-2 bg-white img-fluid border border-white shadow" src="https://images.pexels.com/photos/3361739/pexels-photo-3361739.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Canino Cuadrúpedo">
+              </div>
+              
+            </div>
+          </section>
+
+          -->
+
+          <div class="">
+            <section id="info"  class="parallax fs-1 p-5 text-center text-white" style="background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.269), rgba(0, 0, 0, 0.128)), url('./images/parallax_img_2.png');">
+              <h2 class="mb-4">
+                <!-- NEW CHALLENGES, MORE FUN! -->
+                <img class="img-fluid" src="./images/text/new_challenges_more_fun.png">
+              </h2>
+              <p class="fs-5 p-5 shadow fw-bold">
+                In this gripping post-apocalyptic 2D game, you'll face an 
+                ever-evolving array of formidable enemies and challenges. 
+                From hulking mutated beasts to cunning raiders, 
+                adaptability is key to survival. Navigate treacherous 
+                terrain, solve intricate puzzles, and outwit your 
+                adversaries in a dynamic world where danger lurks around 
+                every corner. Each encounter presents a unique test of 
+                your skills and strategy, ensuring that no two playthroughs 
+                are ever the same.
+              </p>
+            </section>
+          </div>
+
+          <section id="view" class="bg-magenta-p p-5 text-left text-primary">
+            <h2 class="text-white text-center mb-4">
+              <!-- EXPLORE THE WORLD OF POST-A  -->
+              <h2 class="mb-4 shadow">
+                <!-- NEW CHALLENGES, MORE FUN! -->
+                <img class="img-fluid" src="./images/text/explore_the_world_of_post_a.png">
+              </h2>
+            </h2>
+            <div class="row">
+              
+              <!-- <div class="col-mg col-sm-12 mb-2">
+                <div class="card">
+                  <img src="https://hfu.hollywoodfeed.com/wp-content/uploads/2019/02/GettyImages-1024x684.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+              </div> -->
+              
+              <div class="col-lg col-sm-12">
+                <div class="card">
+                  <img src="./images/backgrounds/structures.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">
+                    <h3>
+                      Explore long-forgotten structures! <br>
+                    </h3>
+                      The land is filled with building and campsites of a long-gone era. Useful
+                      items can still be found within, use them wisely!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-lg col-sm-12 ">
+                <div class="card">
+                  <img src="./images/backgrounds/blackteeth_flower.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">
+                      <h3>
+                        Beware the dangerous Blackteeth flower!
+                      </h3>
+                      The menacing appearance of this flower is complemented by its effects on
+                      anyone who dares get close to it.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-lg col-sm-12">
+                <div class="card"> 
+                  <img src="./images/backgrounds/forests.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">
+                      <h3>
+                        Roam distant lands and forests! <br><br>
+                      </h3>
+                      The forests and swamps of this world are filled with useful trinkets and
+                      little quirks you can use to your advantage.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </section>
+          
+          <footer>
+            <div class="row p-5 bg-dark text-white">
+              <div class="col-1">
+              </div>
+              <div class="col">
+                <h3>DLC CONTENT</h3>
+                <p class="text-white">
+                  Wasteland Chronicles: Resurgence<br>
+                  Raiders of the Ruins: Unleashed<br>
+                  Radiation Reckoning: Mutant Mayhem
+                </p>
+                <hr>
+                <h3>COMMUNITY</h3>
+                <p>
+                  Forums<br>
+                  Form Part of our Creator Program
+                </p>
+                <h3 id="shop">SHOP</h3>
+                <p>
+                  Marketplace<br>
+                  Post-A Shop
+                </p>
+                <h3 id="support">SUPPORT</h3>
+                <p>
+                  Tips for Beginners<br>
+                  Feedback<br>
+                  Download<br>
+                  Site Map
+                </p>
+              </div>
+
+              <div class="col-2">
+                
+                <h3>ACCOUNT</h3>
+                <p>
+                  Profile<br>
+                  Redeem Gift Codes <br>
+                </p>
+
+                <i class="bi bi-instagram"> 
+                  <img class="img-fluid mb-3" src="https://www.minecraft.net/content/dam/games/minecraft/logos/Logo_%20Xbox_Game_Studio.png"> 
+                </i>  
+                
+                <i class="bi bi-instagram"> 
+                  <img class="img-fluid mb-3" src="https://www.minecraft.net/content/dam/games/minecraft/logos/esrb_2021.svg"> 
+                </i>  
+
+              </div>
+
+              <div class="col-1"></div>
+
+              <div class="col-3">
+
+                <div class="col">
+
+                  <h2 class="text-center">WHERE TO FIND US</h2>
+                  <ul class="list-group ">
+  
+                    <li class="list-group-item">
+                      <a href="http://facebook.com" target="_blank" class="btn fs-5 tn btn-white mb-1 fw-bold">
+                        <i class="bi bi-facebook">
+                          <img width="50px" height="50px" class="img-fluid mb-1" src="./images/logos/facebook.png">
+                        </i>  
+                        Facebook
+                      </a>
+                    </li>
+  
+                    <li class="list-group-item">
+                      <a href="http://facebook.com" target="_blank" class="btn fs-5 tn btn-white mb-1 fw-bold">
+                        <i class="bi bi-instagram"> 
+                          <img width="50px" height="50px" class="img-fluid mb-1" src="./images/logos/instagram.png"> 
+                        </i>  
+                        Instagram
+                      </a> 
+                    </li>
+  
+                    <li class="list-group-item">
+                      <a href="http://facebook.com" target="_blank" class="btn fs-5 tn btn-white fw-bold" style="padding-left: 27%;">
+                        <i class="bi bi-instagram"> 
+                          <img width="55px" height="55px" class="img-fluid mb-1" src="./images/logos/twitter.png"> 
+                        </i>  
+                        <br>
+                        Twitter
+                      </a>  
+                    </li>
+  
+                  </ul>
+                </div>
+
+              </div>
+              
+              <div class="col-1"></div>
+            </div>
+          </footer>
+      
+    </div> 
+</body>
+</html>
