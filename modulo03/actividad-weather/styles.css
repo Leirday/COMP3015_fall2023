@@ -1,0 +1,22 @@
+
+.m-h {
+    min-height: 100vh;
+    background-image: url(https://i.pinimg.com/originals/e6/0b/a7/e60ba7baced8606e44e7f9e0798b9b1a.jpg);
+    
+}
+
+.bg-img {
+    background-image: url(https://i.pinimg.com/originals/e6/0b/a7/e60ba7baced8606e44e7f9e0798b9b1a.jpg);
+
+}
+
+body {
+    background-image: url(https://i.pinimg.com/originals/e6/0b/a7/e60ba7baced8606e44e7f9e0798b9b1a.jpg);
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+}
+
+.sticky-footer {
+    position: sticky;
+    top: 100%;
+}

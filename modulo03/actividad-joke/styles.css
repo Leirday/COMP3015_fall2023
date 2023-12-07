@@ -1,0 +1,22 @@
+
+.m-h {
+    min-height: 100vh;
+    
+}
+
+.sticky-footer {
+    position: sticky;
+    top: 100%;
+}
+
+.bg-img {
+    background-image: url(http://jaysbrickblog.com/wp-content/uploads/2014/01/Simpsons-House-742-Evergreen-Terrace.jpg);
+
+}
+
+body {
+    background-image: url(http://jaysbrickblog.com/wp-content/uploads/2014/01/Simpsons-House-742-Evergreen-Terrace.jpg);
+    background-attachment:fixed;
+    background-size:cover;
+    background-repeat: no-repeat;
+}

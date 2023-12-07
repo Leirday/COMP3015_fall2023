@@ -1,0 +1,29 @@
+https://www.cocktaildb.com/api/json/v1/1/random.php
+
+// Necesita colorar el resto del codigo de Javascript
+get - json data
+
+    const drink = data.drinks[0];
+
+    drink.strDrink; // titulo
+    drink.strDrinkThumb; // imagen
+
+    $('#tituloH1').html( drink.strDrink ); // titulo
+    $('#imageIMG').attr('src', drink.strDrinkThumb); // img
+
+    let ingredients = []
+
+    for(i=1;i<=15;i++) {
+        if (drink['strIngredient${i}]'] && drink['strIngredient${i}]'].trim() !== "")
+        {
+            ingredients.push(drink['strIngredient${i}]']);
+        }
+    }
+
+    $('listaUL').empty();
+
+    ingredients.forEach(ingredient => {
+        
+        $('listaUL').append('<li>${ingredient}</li>');
+    })
+

@@ -1,0 +1,21 @@
+
+.bar-bg {
+    background-image: url(https://wallpapercave.com/wp/wp3322439.jpg);
+}
+
+body{
+    min-height: 100vh;
+    background-image: url(https://wallpapercave.com/wp/wp3322439.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.m-h {
+    min-height: 100vh;
+    
+}
+
+.sticky-footer {
+    position: sticky;
+    top: 100%;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad #1: Open Weather</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- jQuery -->
+    <script
+    src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap JS (opcional) -->
+    <script
+    src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="./script.js"></script>
+    <link href="./styles.css" rel="stylesheet">
+
+</head>
+<body class="m-h">
+    <header class="mb-5">
+        <div id="title" class="header hcontainer-xl p-5 text-white bg-dark text-center mb-4">
+            <h1>
+                Actividad #1: Open Weather
+            </h1>
+        </div>
+    </header>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Consulta el clima para una semana</h5>
+                            <div class="form-group">
+                                <label for="location">Ubicación:</label>
+                                <input type="text" class="form-control" id="location" placeholder="Introduce la ciudad"/>
+                            </div>
+
+                        <button id="checkWeather" class="btn btn-primary">
+                        Ver clima
+                        </button>
+                    </div>
+                </div>
+            <div id="weatherResult" class="mt-4 bg-light rounded p-2"></div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer mt-auto py-3 bg-dark sticky-footer text-white text-center">
+        <div class="container">
+          <span class="text-body-secondary">
+            <p>&copy; 2023 Eliel Feliciano</p>
+          </span>
+        </div>
+    </footer>
+</body>
+</html>
